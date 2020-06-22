@@ -22,7 +22,7 @@ Preferably the JSONObject should be :
     </code>
 </pre>
 
-[producer.js](./new_task.js) is dedicated to add Messages into Queue.
+[producer.js](./workers/new_task.js) is dedicated to add Messages into Queue.
 This JSON object considered here  is provided by the SendGrid Emailing Service !! 
 
 <pre>
@@ -33,4 +33,4 @@ The above Route `/consumeMessagesFromQueue` consumes the inserted JSONobject ins
 [worker.js](./worker.js) is dedicated to consume Messages from Rabbit Queue.
 
 ## Future Scope : 
-Integrating SendGrid API service with appropriate Keys inside [worker.js](./worker.js) to send Emails.
+Integrating SendGrid API service with appropriate Keys inside [worker.js](./workers/worker.js) to send Emails.
