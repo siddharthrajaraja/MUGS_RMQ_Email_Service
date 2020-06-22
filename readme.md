@@ -22,7 +22,7 @@ Preferably the JSONObject should be :
     </code>
 </pre>
 
-[producer.js](./workers/new_task.js) is dedicated to add Messages into Queue.
+[new_task.js](./workers/new_task.js) is dedicated to add Messages into Queue.
 This JSON object considered here  is provided by the SendGrid Emailing Service !! 
 
 <pre>
